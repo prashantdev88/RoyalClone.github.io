@@ -1,0 +1,34 @@
+.motorcycle-reviews{text-align:center}
+.motorcycle-reviews .c-item{margin-bottom:30px;width:33.33%;float:left}
+.motorcycle-reviews .c-item h3{margin:25px 0 10px}
+.motorcycle-reviews .c-item p{width:323px;margin:10px auto 0;height:100px}
+.motorcycle-reviews .c-item .inner-img{position:relative}
+.motorcycle-reviews .c-item .inner-img .profile-image{width:150px}
+.motorcycle-reviews .c-item .inner-img img{position:relative;z-index:1;max-width:100%}
+.motorcycle-reviews .c-item .inner-img:before{position:absolute;left:60%;right:0;top:0;bottom:0;margin:auto;width:75%;height:3px;background:#a5a5a5;z-index:0}
+.motorcycle-reviews .c-item:nth-child(3n) .inner-img:before{display:none}
+.motorcycle-reviews .custom-btn{text-transform:none}
+.button-bottom{width:100%;padding:25px 0;overflow:hidden}
+.carousel-reviews .slick-slide{width:33.33%}
+@media screen and (max-width:1250px){.motorcycle-reviews .c-item h3{margin:10px 0 15px}
+.motorcycle-reviews .c-item p{width:100%;margin:10px auto 0}
+}
+@media screen and (max-width:1023px){.motorcycle-reviews .c-item{width:50%}
+}
+@media screen and (max-width:767px){.motorcycle-reviews .c-item{width:100%}
+.carousel-grid-three .slick-dots,.carousel-reviews .slick-dots{position:relative;bottom:0;padding:15px}
+.motorcycle-reviews{background:#212121 !important}
+.motorcycle-reviews .container-cus{max-width:100%;padding:0}
+.motorcycle-reviews .text-heading{color:#fff}
+.motorcycle-reviews .inner-box{background:#212121;padding:0 5px !important;margin-top:25px}
+.motorcycle-reviews .inner-box .inner-img .box-circle{width:97px;height:97px}
+.motorcycle-reviews .inner-box .inner-txt{background:#fff;margin-top:-50px;padding:50px 15px 15px}
+.motorcycle-reviews .c-item{margin-bottom:0}
+.motorcycle-reviews .button-bottom{padding:5px 0}
+.motorcycle-reviews .re-title-head{margin-bottom:10px}
+.motorcycle-reviews .rating-star-head{display:none}
+.motorcycle-reviews .custom-btn{background:#fff;width:100%;padding:25px !important;font-size:18px;border-color:#fff !important;text-align:left}
+.motorcycle-reviews .custom-btn:hover{border-color:#000 !important}
+}
+@media screen and (max-width:600px){.motorcycle-reviews .c-item{width:100%;display:block}
+}

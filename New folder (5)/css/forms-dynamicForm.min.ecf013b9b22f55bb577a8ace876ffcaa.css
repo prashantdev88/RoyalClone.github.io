@@ -1,0 +1,173 @@
+.form-conditions{width:18px;height:18px;display:block;float:left;position:relative;border:solid thin #656565;vertical-align:middle;cursor:pointer}
+.form-main-heading{margin-bottom:20px}
+.no-border{border:none !important}
+.terms-message{float:left;display:block;width:calc(100% - 30px);width:-moz-calc(100% - 30px);width:-webkit-calc(100% - 30px)}
+label.terms.form-conditions:before{display:none !important}
+.custom-checkbox input[type=checkbox].with-font:checked ~ label{border-color:#da291c !important}
+.form-submit-btn{padding:0 10px}
+.form-container{max-width:766px;margin:0 auto;padding:30px 22px}
+.form-container>p,.form-container form>p,.form-container p{padding:0 10px}
+.form-container p font{color:#da291c}
+.form-container h1{text-align:center}
+.form-container h1,.form-container h2{padding-bottom:20px;padding:0 10px}
+.form-container h1{padding-bottom:20px}
+.alert{position:relative;padding:0;margin-bottom:10px;border:1px solid transparent;border-radius:.25rem;font-size:12px}
+.alert-danger{color:red;background-color:#fff;border-color:#fff}
+.alert{position:relative;padding:0;margin-bottom:0;border:1px solid transparent;border-radius:.25rem;font-size:12px}
+form>.cta,form>.payment,form .submitButton,.form-container p{padding:0 5px}
+.radioGroup p{padding:0}
+.dynamic-form-element{width:100%}
+.dynamic-form-element.column-2{width:100%}
+.dynamic-form-element.column-3{width:100%}
+.input-box{width:calc(100% - 24px);width:-moz-calc(100% - 24px);width:-webkit-calc(100% - 24px);display:inline-block;margin:10px;vertical-align:top}
+.dynamic-form-element.country-state{width:100%}
+.dynamic-form-element.country-state.column-3 .select-box{width:calc(33.33% - 13px);width:-moz-calc(33.33% - 13px);width:-webkit-calc(33.33% - 13px)}
+.dynamic-form-element.country-state.column-2 .select-box{width:calc(50% - 13px);width:-moz-calc(50% - 13px);width:-webkit-calc(50% - 13px)}
+.payment p{display:inline-block;padding:0 5px 0 0}
+.colum-2 .input-box{width:calc(50% - 24px);width:-moz-calc(50% - 24px);width:-webkit-calc(50% - 24px)}
+.colum-3 .input-box{width:calc(33.33% - 24px);width:-moz-calc(33.33% - 24px);width:-webkit-calc(33.33% - 24px)}
+.colum-3>*{width:calc(33.33% - 24px) !important;width:-moz-calc(33.33% - 24px) !important;width:-webkit-calc(33.33% - 24px) !important}
+.colum-2>*{width:calc(50% - 24px) !important;width:-moz-calc(50% - 24px) !important;width:-webkit-calc(50% - 24px) !important}
+.colum-3 .radio-btn,.colum-3 .check-btn,.colum-2 .radio-btn,.colum-2 .check-btn{margin:10px}
+.mag-top20{margin-top:20px}
+.input-box{position:relative}
+.input-field,.textarea-field,.select-field{font-family:"montserrat-regular";font-size:14px;color:#212121;width:100%;height:auto;border:solid 1px #656565;border-radius:0;background:0;padding:15px 20px;box-shadow:none;outline:0;box-sizing:border-box;appearance:none;-webkit-appearance:none;transition:.2s ease all;line-height:16px;position:relative;z-index:1}
+.textarea-field{height:80px;resize:none}
+.select-box:before{content:'\0043';position:absolute;top:0;bottom:0;right:15px;margin:auto;font-family:'reicons';font-size:14px;height:14px;line-height:normal}
+.form-group,.multi-field-file-wrapper{width:calc(100% - 10px);width:-moz-calc(100% - 10px);width:-webkit-calc(100% - 10px);display:inline-block;margin:10px 5px}
+.multi-field-file-wrapper p{padding:0}
+.file-group{width:100%;position:relative;overflow:hidden;margin:0 0 10px}
+.file-group:last-child{margin:0}
+.file-group label{position:relative;font-size:0;white-space:nowrap;vertical-align:middle;width:100%;overflow:hidden;cursor:pointer;z-index:1;margin:0;height:45px;position:absolute;left:0;top:0}
+.file-group>span{float:left;width:150px;padding:15px 15px;background:#000;color:#fff;font-size:14px;text-align:center}
+.space-left{margin-right:10px}
+.file-group label input[type=file]{position:absolute;top:0;right:0;min-width:100%;min-height:100%;font-size:100px;text-align:right;filter:alpha(opacity=0);opacity:0;outline:0;background:white;cursor:inherit;display:block}
+.file-group input[type=text]{width:calc(100% - 150px);width:-moz-calc(100% - 150px);width:-webkit-calc(100% - 150px);font-family:"montserrat-regular";font-size:10px;color:#212121;height:auto;border-radius:0;background:0;padding:15px 20px 15px 20px;box-shadow:none;outline:0;box-sizing:border-box;appearance:none;-webkit-appearance:none;transition:.2s ease all;line-height:16px;border:solid 1px #656565}
+.file-text{width:calc(100%);width:-moz-calc(100%);width:-webkit-calc(100%);font-family:"montserrat-regular";font-size:10px;color:#212121;height:auto;border-radius:0;background:0;padding:15px 20px 15px 20px;box-shadow:none;outline:0;box-sizing:border-box;appearance:none;-webkit-appearance:none;transition:.2s ease all;line-height:16px;border:solid 1px #656565}
+.file-group .custom-btn{position:absolute;top:1px;bottom:1px;right:1px;left:auto;background:#fff;padding:0;margin:0}
+.file-group .custom-btn .icon-plus,.file-group .custom-btn .icon-minus{padding:10px 15px}
+.file-group .custom-btn:hover .icon-minus{color:#da291c}
+.form-submit{padding:0;padding-bottom:30px}
+.form-submit-btn .custom-btn{margin-top:10px;cursor:pointer}
+.form-submit .custom-btn{background:#000;color:#FFF !important}
+.radio-btn,.check-btn{width:100%;display:inline-block;margin:20px 5px}
+.radio-btn p,.check-btn p{font-size:14px;margin:0 0 10px;padding:0}
+h3{margin:0 10px}
+.custom-radio,.custom-checkbox{width:auto;display:inline-block;vertical-align:middle;margin-right:25px}
+.radio-btn.list-view .custom-radio,.check-btn.list-view .custom-checkbox{display:block;margin-bottom:15px}
+.custom-radio label,.custom-checkbox label{font-weight:normal;margin-bottom:0;position:relative;color:#555;font-size:14px;cursor:pointer}
+.custom-radio input[type=radio].with-font,.custom-checkbox input[type=checkbox].with-font{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.custom-radio input[type=radio].with-font ~ label:before,.custom-checkbox input[type=checkbox].with-font ~ label:before{content:"";width:18px;height:18px;border:solid thin #656565;display:inline-block;vertical-align:middle;cursor:pointer}
+.custom-radio input[type=radio].with-font ~ label:before{-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}
+.custom-radio input[type=radio].with-font ~ label:after,.custom-checkbox input[type=checkbox].with-font ~ label:after{content:"";width:8px;height:8px;background:rgba(218,41,28,0);display:inline-block;position:absolute;left:5px;top:50%;transform:translateY(-50%)}
+.custom-radio input[type=radio].with-font ~ label:after{-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}
+.custom-radio input[type=radio].with-font:checked ~ label:before,.custom-checkbox input[type=checkbox].with-font:checked ~ label:before{border-color:#da291c}
+.custom-radio input[type=radio].with-font:checked ~ label:after,.custom-checkbox input[type=checkbox].with-font:checked ~ label:after{background:#da291c}
+.custom-checkbox .terms{display:inline-flex}
+.custom-radio label.active,.custom-checkbox label.active{color:#ef5994}
+.custom-radio span,.custom-checkbox span{padding:0 10px}
+.multi-field-wrapper{margin-top:20px}
+.multi-field-wrapper .input-box{margin:10px 10px 0}
+.multi-field-wrapper .input-box:last-child .add-rem-btn,.multi-field-file-wrapper .file-group:last-child .add-rem-btn1{float:right;background:#000;color:#FFF;display:block;margin-top:10px;position:static;right:inherit;top:inherit}
+.add-text-box,.add-text-box1{padding:10px;display:inline-block}
+.multi-field-wrapper p,.multi-field-wrapper p{padding:0 12px}
+.add-rem-btn,.add-rem-btn1{cursor:pointer}
+.add-rem-btn,.add-rem-btn1{position:absolute;right:0;top:0;z-index:1}
+.add-rem-btn .remove-field,.add-rem-btn1 .remove-field1{display:inline-block;padding:15px 20px;font-family:}
+.remove-field:before,.remove-field1:before{content:"%";font-family:"reicons"}
+.input-box.date:before{position:absolute;top:50%;transform:translateY(-50%);font-size:25px;z-index:0;cursor:text;right:20px;content:'\0050';font-family:'reicons'}
+.colum-1 .custom-checkbox{width:100%;margin-right:0}
+.custom-checkbox a{color:#000;font-weight:bolder}
+.text-list{padding:10px 10px 30px}
+.text-list p{font-size:14px;overflow:hidden;margin-top:10px;padding:0}
+.text-list p .list-lh{float:left;width:120px;font-weight:bold}
+.text-list p .list-rh{float:left;width:calc(100% - 120px);width:-moz-calc(100% - 120px);width:-webkit-calc(100% - 120px)}
+.tab-content.current{display:block}
+.brt-tab-comp{width:100%;text-align:center;overflow:hidden;padding-bottom:20px}
+.brt-tab-comp ul{list-style:none;display:block;width:100%;border-bottom:0;margin-right:0}
+.brt-tab-comp ul li{display:inline-block;margin:0 20px;cursor:default}
+.brt-tab-comp ul li:first-child{margin-left:0}
+.brt-tab-comp ul li:last-child{margin-right:0}
+.brt-tab-comp ul li a{color:#000;display:block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;text-decoration:none;padding-bottom:5px;font-size:14px}
+.brt-tab-comp ul li.tab-link.active{border-bottom:1px solid #da291c;color:#da291c}
+.list-txt{margin-top:10px;margin-left:20px}
+.list-txt li{margin-top:10px;list-style-type:disc}
+.list-txt li a{color:red}
+@media screen and (max-width:767px){.dynamicFormContainer .modal{z-index:999999}
+.colum-3>*,.colum-2>*{width:calc(100% - 20px) !important;width:-moz-calc(100% - 20px) !important;width:-webkit-calc(100% - 20px) !important;margin:5px 10px}
+.form-main-heading{margin-bottom:10px}
+.form-container{max-width:800px;margin:0 auto;padding:40px 15px}
+.form-group,.multi-field-file-wrapper{width:100%;margin:10px 0}
+.custom-radio,.custom-checkbox{width:100%;display:inline-block;vertical-align:middle;margin-right:0;margin-bottom:15px}
+.dynamic-form-element,.textarea,.textbox,.dropdown,.dateField,.email,.hiddenInput,.numberfield,form>.date,.password,.phone,.dynamic-form-element.column-2,.dynamic-form-element.column-3,.dynamic-form-element.country-state.column-2 .select-box,.dynamic-form-element.country-state.column-3 .select-box{width:100%}
+.form-container h1,.form-container h2,.form-container>p,.form-container p{padding:0}
+.form-container h1{padding-bottom:20px}
+.input-box{margin:5px 0;width:100%}
+.file-text{padding:7px 20px 7px 20px}
+.countryState div{overflow:hidden}
+form>.cta,form>.payment,form .submitButton,.form-container p{padding:0}
+.radio-btn,.check-btn{margin:10px 0}
+}
+@media screen and (max-width:767px){.Motorcycle-Campaign-Page .dynamicFormContainer .formData .consents .form-submit-btn{margin-bottom:0}
+.Motorcycle-Campaign-Page .dynamicFormContainer .formData .consents{padding:15px 0 15px}
+.Motorcycle-Campaign-Page .dynamic-form-container .consents .user-check-2 .form-gdpr{width:100%;margin-right:0}
+}
+@media screen and (min-width:767px){.Motorcycle-Campaign-Page .dynamicFormContainer #book-test-ride .formData .text.parbase{padding:0 4px}
+.Motorcycle-Campaign-Page .dynamicFormContainer #book-test-ride .formData .terms\&conditions{padding:0 2px}
+.Motorcycle-Campaign-Page .dynamicFormContainer #book-test-ride .formData .form-submit-btn{padding:0 12px}
+}
+@media screen and (max-width:767px){.Motorcycle-Campaign-Page .dynamicFormContainer #book-test-ride .formData .form-submit-btn{padding:0 5px}
+}
+.colum-5 .input-box{width:calc(20% - 24px);width:calc(20% - 24px);width:calc(20% - 24px);width:calc(20% - 24px);width:calc(20% - 24px)}
+.ui-datepicker{width:340px;height:auto;background:#fff;margin:5px auto 0;padding:20px 20px 10px;position:absolute;left:-200px;top:-200px;border:1px solid #CCC;box-shadow:0 0 20px 0 #CCC}
+.ui-datepicker a{text-decoration:none;font-family:"montserrat-regular";font-weight:normal}
+.ui-datepicker table{width:100%}
+.ui-datepicker thead{background-color:#f7f7f7;border-bottom:1px solid #bbb}
+.ui-datepicker th{text-transform:uppercase;font-size:16px;padding:10px;color:#5d5d5d;background:#fff;font-weight:normal}
+.ui-datepicker tbody td{padding:5px}
+.ui-datepicker tbody td:last-child{border-right:0}
+.ui-datepicker tbody tr{border-bottom:1px solid #bbb}
+.ui-datepicker tbody tr:last-child{border-bottom:0}
+.ui-datepicker td span,.ui-datepicker .ui-datepicker td a{display:inline-block;text-align:center;width:30px;height:30px;line-height:30px;color:#666;transition:ease all .6s;font-weight:normal}
+.ui-datepicker .ui-datepicker-unselectable.ui-state-disabled .ui-state-default{background:#fff;color:#e9ecef;cursor:not-allowed}
+.ui-datepicker-header{background:#fff;color:#5d5d5d;border-bottom:solid thin #dadbdd;padding:5px 0 20px;margin:0 0 15px;text-align:center}
+.ui-datepicker-header a{font-family:"guardiansans-medium"}
+.ui-datepicker-header .ui-datepicker-title select{border:0;font-family:"guardiansans-medium";font-size:15px;outline:0;color:#5d5d5d;padding:0 15px;margin:0 15px;background:0;text-transform:none;transition:all .6s ease;outline:0;appearance:none;background:url("../fonts/re-platform-images-arrow-down.svg") no-repeat !important;background-size:10px !important;background-position:97% !important}
+.ui-datepicker-prev,.ui-datepicker-next{display:none}
+.ui-datepicker-calendar .ui-state-default{width:30px;height:30px;line-height:30px;background:#fff;color:#a6a6a6;border-radius:50%;display:inline-block;text-align:center;transition:ease all .6s}
+.ui-datepicker-calendar .ui-state-hover,.ui-state-default.ui-state-highlight{background:#c3c3c3;color:#fff}
+.ui-datepicker-calendar .ui-state-active{background:#c3c3c3;color:#fff;position:relative;margin:-1px}
+.ui-datepicker-unselectable .ui-state-default{background:#f4f4f4;color:#b4b3b3}
+@media screen and (max-width:1250px){.ui-datepicker th{font-size:14px;padding:7px}
+}
+@media screen and (max-width:767px){.ui-datepicker{width:285px;padding:10px}
+.ui-datepicker th{font-size:12px;padding:5px}
+.ui-datepicker-calendar .ui-state-default{width:20px;height:20px;line-height:20px;font-size:12px}
+.ui-datepicker-header{padding:5px 0 10px;margin:0 10px 10px}
+}
+.ui-datepicker{width:340px;height:auto;background:#fff;margin:5px auto 0;padding:20px 20px 10px;position:absolute;left:-200px;top:-200px;border:1px solid #CCC;box-shadow:0 0 20px 0 #CCC}
+.ui-datepicker a{text-decoration:none;font-family:"montserrat-regular";font-weight:normal}
+.ui-datepicker table{width:100%}
+.ui-datepicker thead{background-color:#f7f7f7;border-bottom:1px solid #bbb}
+.ui-datepicker th{text-transform:uppercase;font-size:16px;padding:10px;color:#5d5d5d;background:#fff;font-weight:normal}
+.ui-datepicker tbody td{padding:5px}
+.ui-datepicker tbody td:last-child{border-right:0}
+.ui-datepicker tbody tr{border-bottom:1px solid #bbb}
+.ui-datepicker tbody tr:last-child{border-bottom:0}
+.ui-datepicker td span,.ui-datepicker .ui-datepicker td a{display:inline-block;text-align:center;width:30px;height:30px;line-height:30px;color:#666;transition:ease all .6s;font-weight:normal}
+.ui-datepicker .ui-datepicker-unselectable.ui-state-disabled .ui-state-default{background:#fff;color:#e9ecef;cursor:not-allowed}
+.ui-datepicker-header{background:#fff;color:#5d5d5d;border-bottom:solid thin #dadbdd;padding:5px 0 20px;margin:0 0 15px;text-align:center}
+.ui-datepicker-header a{font-family:"guardiansans-medium"}
+.ui-datepicker-header .ui-datepicker-title select{border:0;font-family:"guardiansans-medium";font-size:15px;outline:0;color:#5d5d5d;padding:0 15px;margin:0 15px;background:0;text-transform:none;transition:all .6s ease;outline:0;appearance:none;background:url("../fonts/re-platform-images-arrow-down.svg") no-repeat !important;background-size:10px !important;background-position:97% !important}
+.ui-datepicker-prev,.ui-datepicker-next{display:none}
+.ui-datepicker-calendar .ui-state-default{width:30px;height:30px;line-height:30px;background:#fff;color:#a6a6a6;border-radius:50%;display:inline-block;text-align:center;transition:ease all .6s}
+.ui-datepicker-calendar .ui-state-hover,.ui-state-default.ui-state-highlight{background:#c3c3c3;color:#fff}
+.ui-datepicker-calendar .ui-state-active{background:#c3c3c3;color:#fff;position:relative;margin:-1px}
+.ui-datepicker-unselectable .ui-state-default{background:#f4f4f4;color:#b4b3b3}
+@media screen and (max-width:1250px){.ui-datepicker th{font-size:14px;padding:7px}
+}
+@media screen and (max-width:767px){.ui-datepicker{width:285px;padding:10px}
+.ui-datepicker th{font-size:12px;padding:5px}
+.ui-datepicker-calendar .ui-state-default{width:20px;height:20px;line-height:20px;font-size:12px}
+.ui-datepicker-header{padding:5px 0 10px;margin:0 10px 10px}
+}

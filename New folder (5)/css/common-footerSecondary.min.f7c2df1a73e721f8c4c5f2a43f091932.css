@@ -1,0 +1,28 @@
+.footer-secondary{padding:15px 0 5px;background:#212121;position:relative;z-index:0}
+.footer-secondary .container{max-width:80%}
+.icon-wit-btn{width:100%;display:block;text-align:center}
+.icon-wit-btn .inner-box{padding:15px}
+.icon-wit-btn .inner-box a{width:100%;display:inline-block}
+.icon-wit-btn img{height:58px;display:inline-block}
+.icon-wit-btn span{font-size:55px;color:#939292}
+.icon-wit-btn h4{color:#b4b2b2;font-size:16px;margin-top:12px}
+.icon-wit-btn .custom-btn{border-color:transparent;color:#b4b2b2;background:0;cursor:inherit}
+.icon-wit-btn .custom-btn:before{font-size:10px}
+.icon-wit-btn .inner-box a:hover .custom-btn{color:#da291c;background:0}
+.icon-wit-btn p{font-size:14px;line-height:16px;margin:5px 0 0}
+@media screen and (max-width:1400px){.footer-secondary .container{max-width:1200px}
+}
+@media screen and (max-width:767px){.footer-secondary .container{max-width:100%}
+.footer-secondary .row>[class^="col-"],.footer-secondary .row>[class*=" col-"]{width:50%;border-right:solid thin #000;border-bottom:solid thin #000}
+.icon-wit-btn .custom-btn{padding:0;font-size:12px}
+.icon-wit-btn .custom-btn:before{display:none}
+}
+@media screen and (max-width:576px){.footer-secondary{padding:0}
+.footer-secondary .row .col-xl{width:50%;border-right:solid thin #000;border-bottom:solid thin #000}
+}
+@media screen and (max-width:460px){.footer-secondary .grid-five .grid-box{min-height:110px}
+.icon-wit-btn span{font-size:35px}
+.icon-wit-btn img{height:40px;margin-top:0}
+}
+@media screen and (max-width:320px){.icon-wit-btn img{margin-top:4px}
+}

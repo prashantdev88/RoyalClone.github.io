@@ -1,0 +1,19 @@
+.rides-overview-details{padding-bottom:35px;text-align:center}
+.rides-overview-details .container-fluid{max-width:1400px}
+.rides-date-price{margin-top:35px;text-align:center}
+.rides-date-price p{font-size:12px;color:#4f4f4f}
+.rides-overview-details p{margin-top:35px}
+.rides-overview{padding:35px 0;text-align:center}
+.rides-overview span{font-size:40px}
+.rides-overview p{font-size:12px;margin:0;color:#4f4f4f;line-height:normal;text-transform:capitalize}
+.rides-overview h3{color:#000;margin-top:7px}
+.rides-overview.text-white span,.rides-overview.text-white p,.rides-overview.text-white h3{color:#fff}
+.rides-overview .dropdown-menu p,.rides-overview .dropdown-menu ul li a,.rides-overview .dropdown-menu ul li a span{color:#000}
+@media screen and (max-width:1250px){.rides-overview h3{font-size:16px;margin-top:5px}
+}
+@media screen and (max-width:1024px){.rides-date-price,.rides-overview-details p{margin-top:25px}
+.rides-overview span{font-size:34px}
+.rides-overview h3{font-size:14px;margin-top:3px}
+}
+@media screen and (max-width:520px){.rides-overview .row>[class^="col-"],.rides-overview .row>[class*=" col-"]{width:50%}
+}

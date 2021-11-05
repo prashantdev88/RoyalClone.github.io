@@ -1,0 +1,38 @@
+.breadcrumb-navigation{width:100%;height:auto;height:35px;background:#000}
+.breadCrumbsWrap{position:fixed;width:100%;top:129px;left:0;z-index:990;-webkit-transition:300ms all ease-in-out;-o-transition:300ms all ease-in-out;-moz-transition:300ms all ease-in-out;transition:300ms all ease-in-out}
+.breadCrumbsWrap.fixed{top:56px}
+.breadcrumb-navigation .container-fluid{padding:0 15px}
+section:before,section:after{content:'';display:table;clear:both;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.breadcrumb-outer{background:#212121;height:35px;overflow:hidden}
+.breadcrumb-outer .breadcrumb-list{height:35px}
+.breadcrumb-list{width:100%}
+.breadcrumb-list ul{white-space:nowrap;overflow:auto;margin:0;padding:0;list-style-type:none;line-height:normal}
+.breadcrumb-list .list-of-items li:first-child{padding-left:0}
+.breadcrumb-list .list-of-items li{float:none;padding:0 15px 0 5px;margin:0;position:relative;color:#fff;font-family:"guardiansans-regular";display:inline-block}
+.breadcrumb-list .list-of-items li:before{content:"\0041";font-family:"reicons";position:absolute;top:50%;bottom:0;right:0;margin-top:-5px;font-size:8px}
+.breadcrumb-list .list-of-items li.bread-crumb-item.active:before{content:""}
+.list-of-items .bread-crumb-item a{color:#fff;letter-spacing:1px}
+.breadcrumb-list .list-of-items li:first-child:before{margin-top:-8px}
+.d-item{position:relative}
+.bread-crumb-item .d-item{color:#fff}
+.breadCrumbsWrap{width:100%}
+.breadcrumb-list .list-of-items li.bread-crumb-item.active{float:none;padding:11px 5px;margin:0;color:#fff;position:relative;font-size:14px;letter-spacing:1px;font-family:"guardiansans-regular"}
+@media screen and (max-width:767px){.breadCrumbsWrap{top:102px}
+.breadCrumbsWrap.fixed{top:52px}
+.breadcrumb-outer{background:#fefefe}
+.breadcrumb-list .list-of-items li a{color:#9a9a9a;font-size:10px;padding:13px 0 11px 0}
+.breadcrumb-list .list-of-items li.bread-crumb-item.active{color:#9a9a9a}
+.breadcrumb-list .list-of-items li:before{color:#9a9a9a}
+.breadcrumb-list .list-of-items li{text-transform:uppercase}
+.breadcrumb-list .list-of-items li.bread-crumb-item.active{font-size:10px}
+.align-to-top{top:4px}
+}
+@media screen and (min-width:768px) and (max-width:1090px){.breadCrumbsWrap{top:125px}
+.breadCrumbsWrap.fixed{top:52px}
+.breadcrumb-outer .container-fluid{padding-left:15px;position:relative}
+}
+@media screen and (max-width:1250px){.breadcrumb-list .list-of-items li{padding:0 15px 0 5px}
+}
+.home-icon-align img{width:20px}
+.breadcrumb-list .list-of-items li:first-child:before{margin-top:-4px}
+.align-to-top{top:3px}

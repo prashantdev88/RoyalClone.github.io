@@ -1,0 +1,3 @@
+@media screen and (min-width:767px){.col{width:100% !important}
+}
+.sticky{position:fixed;top:0;width:100%;z-index:777;background:#fff}

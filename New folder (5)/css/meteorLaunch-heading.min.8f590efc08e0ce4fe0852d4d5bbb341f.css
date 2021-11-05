@@ -1,0 +1,8 @@
+.heading-stroked-container{display:flex;white-space:nowrap;margin:40px 0}
+.heading-stroked span{padding:0 30px}
+.heading-stroked{font-size:100px;line-height:50px;color:transparent;-webkit-text-stroke:1px black;margin:0 50px}
+.j1a-btr-heading.heading-stroked-container{margin:80px 0 70px}
+@media screen and (max-width:767px){.heading-stroked-container{margin:0;overflow:hidden;justify-content:center}
+.heading-stroked{font-size:50px;margin:5px 0;line-height:56px}
+.j1a-btr-heading.heading-stroked-container{margin:30px 0 10px}
+}

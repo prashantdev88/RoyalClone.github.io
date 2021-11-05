@@ -1,0 +1,16 @@
+.no-feature-overlay .banner-inner-txt .disp-tbl-cel{background:transparent}
+.no-feature-overlay .re-banner.banner-txt-right .banner-inner-txt .disp-tbl-cel{background:transparent}
+.no-feature-overlay .bg-gradient-rt{background:transparent}
+.features-all-main .view-all-features{padding-bottom:30px}
+.features-all-main .view-all-features .view-all-feature-btn .f-txt-show{display:inline-block}
+.features-all-main .view-all-features .view-all-feature-btn .f-txt-hide{display:none}
+.features-all-main .view-all-features .view-all-feature-btn.f-open .f-txt-show{display:none}
+.features-all-main .view-all-features .view-all-feature-btn.f-open .f-txt-hide{display:inline-block}
+.features-all-main .feature-container-hide{display:none}
+@media screen and (max-width:767px){.motorcycles-features-carousel .re-banner .banner-inner-txt .txt-box p{width:auto}
+.features-all-main .feature-container-hide{display:block !important}
+.features-all-main .view-all-feature-btn,.features-all-main .view-less-feature-btn{display:none !important}
+.features-all-main,.carousel-sections-mobile{background:#000}
+}
+@media screen and (min-width:768px){.motorcycles-features-carousel .slick-slider .slick-slide{width:100%}
+}

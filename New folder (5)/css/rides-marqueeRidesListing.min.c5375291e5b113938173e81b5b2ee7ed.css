@@ -1,0 +1,91 @@
+.marquee-ride-list{position:relative;overflow:visible;background:#212121}
+.marquee-ride-list .text-heading{color:#fff}
+.marquee-ride-list .marquee-filter{padding:15px 0 35px;text-align:center}
+.marquee-ride-list .marquee-filter .custom-btn{color:#fff;font-size:16px;margin:0 30px;border-color:transparent}
+.marquee-ride-list .marquee-filter .custom-btn:hover,.marquee-ride-list .marquee-filter .custom-btn.active{color:#da291c;border-color:#da291c}
+.marquee-ride-list .row>[class^="col-"],.marquee-ride-list .row>[class*=" col-"]{background:#d5d5d5}
+.marquee-ride-list .card-comp{padding:0;background:#d5d5d5;color:#000}
+.marquee-ride-list .card-comp:hover{color:#000}
+.marquee-ride-list .card-comp .inner-image{position:relative;width:100%}
+.marquee-ride-list .card-comp .inner-image>img{width:100%}
+.marquee-ride-list .card-comp .overlay-wid-txt{position:absolute;width:100%;height:100%;top:0;bottom:0;left:0;right:0;z-index:1;background:rgba(0,0,0,0.25);text-align:center}
+.marquee-ride-list .card-comp .overlay-wid-txt .inner-logo{padding:20px 0;width:100%;height:150px;margin:0 auto}
+.marquee-ride-list .card-comp .overlay-wid-txt .inner-logo img{display:inline-block;width:auto;max-width:100%;max-height:100%}
+.marquee-ride-list .card-comp .overlay-wid-txt h2{color:#fff;margin-top:15px;font-size:20px}
+.marquee-ride-list .card-comp h2{font-size:22px}
+.marquee-ride-list .card-comp .card-comp-txt img{max-width:100%;width:auto}
+.marquee-ride-list .card-comp .card-comp-txt ul{margin-bottom:5px}
+.marquee-ride-list .card-comp .card-comp-txt ul li{padding:0 3px;text-transform:capitalize;font-size:10px;height:16px}
+.marquee-ride-list .card-comp .card-comp-txt h6{text-transform:uppercase;font-family:"montserrat-regular"}
+.marquee-ride-list .card-comp .marquee-ride-slide{position:absolute;width:100%;height:100%;left:0;top:0;opacity:0;visibility:hidden;transition:ease all .2s;-webkit-transition:ease all .2s;-moz-transition:ease all .2s;-ms-transition:ease all .2s;-o-transition:ease all .2s;transform:scale(1);-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);z-index:9}
+.marquee-ride-list .card-comp .marquee-ride-slide .slider-progress{height:2px;bottom:0}
+.marquee-ride-list .card-comp .marquee-ride-slide .slider-progress .progress{height:2px;background:#ef4023}
+.marquee-ride-list .card-comp .marquee-ride-slide .c-item img{display:block;max-width:100%}
+.marquee-ride-list .card-comp .marquee-ride-slide .c-item .inner-txt{position:absolute;left:0;right:0;bottom:0;padding:25px}
+.marquee-ride-list .card-comp .marquee-ride-slide .c-item .inner-txt h3{color:#fff;margin-bottom:10px}
+.marquee-ride-list .card-comp .marquee-ride-slide .c-item .inner-txt .interest-count{font-size:12px;color:#fff;float:right;text-transform:capitalize;font-family:"montserrat-regular"}
+.marquee-ride-list .card-comp.mr-open .marquee-ride-slide{opacity:1;visibility:visible;transform:scale(1.1);-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-ms-transform:scale(1.1);-o-transform:scale(1.1)}
+@media screen and (max-width:1910px){.marquee-ride-list .row>[class^="col-"],.marquee-ride-list .row>[class*=" col-"]{flex:20%;max-width:20%}
+}
+@media screen and (max-width:1700px){.marquee-ride-slider .re-banner .banner-inner-txt img{width:200px;margin-bottom:10px}
+.marquee-ride-list .grid-box.open .marquee-ride-slide{transform:scale(1.2);-webkit-transform:scale(1.2);-moz-transform:scale(1.2);-ms-transform:scale(1.2);-o-transform:scale(1.2)}
+.marquee-ride-list .grid-box .inner-box .inner-txt .custom-btn{padding:9px 30px 9px 15px;font-size:12px}
+.marquee-ride-list .grid-box .inner-box .inner-txt .custom-btn:before{right:7px;font-size:11px}
+.marquee-ride-list .grid-box .inner-box .inner-txt .custom-btn:nth-of-type(2){padding-right:20px;font-size:10px}
+.marquee-ride-list .grid-box .inner-box .inner-txt .custom-btn:nth-of-type(2):before{right:0;font-size:8px}
+.marquee-ride-list .grid-box .marquee-ride-slide .slider-progress{bottom:0}
+.marquee-ride-list .grid-box .inner-box .inner-txt h2{margin-bottom:15px}
+}
+@media screen and (max-width:1400px){.marquee-ride-list .grid-box.open .marquee-ride-slide{transform:scale(1.3);-webkit-transform:scale(1.3);-moz-transform:scale(1.3);-ms-transform:scale(1.3);-o-transform:scale(1.3)}
+.marquee-ride-list.grid-six .grid-box{width:20%}
+}
+@media screen and (max-width:1250px){.marquee-ride-list .grid-box{width:33.33%}
+.marquee-ride-list .grid-box .inner-box .inner-txt p{margin:0 0 7px}
+.marquee-ride-list .grid-box.open .marquee-ride-slide{transform:scale(1);-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1)}
+.marquee-ride-list .grid-box .inner-box .inner-txt{padding:20px 20px}
+.marquee-ride-list.grid-six .grid-box{width:25%}
+.marquee-ride-list .grid-box.mr-open .trip-placeholder .marquee-ride-slide{display:none}
+.marquee-ride-list .grid-box.mr-open .inner-box .inner-txt>h2{opacity:1}
+.marquee-ride-list .row>[class^="col-"],.marquee-ride-list .row>[class*=" col-"]{flex:25%;max-width:25%}
+}
+@media screen and (max-width:1090px){.marquee-ride-list .card-comp .marquee-ride-slide,.marquee-ride-list .card-comp.ms_r .marquee-ride-slide{display:none}
+.marquee-ride-list .card-comp .card-comp-txt ul li{height:20px}
+}
+@media screen and (max-width:1023px){.marquee-ride-slider .re-banner .banner-inner-img img{max-width:initial}
+.marquee-ride-list .grid-box{width:50%}
+.marquee-ride-list .grid-box .inner-box .inner-txt h2{margin-bottom:10px}
+.marquee-ride-list .row>[class^="col-"],.marquee-ride-list .row>[class*=" col-"]{flex:25%;max-width:33.33%}
+}
+@media screen and (max-width:900px){.marquee-ride-list.grid-six .grid-box{width:33.33%}
+}
+@media screen and (max-width:767px){.marquee-ride-list .grid-box .inner-box .inner-txt .interest-count{float:left;font-size:13px;display:inline-block;width:100%;margin:5px 0 10px}
+.filter-center{display:flex;justify-content:center;align-items:center}
+.marquee-ride-list .marquee-filter .custom-btn{color:#fff;font-size:13px;margin:0 6px;border-color:transparent}
+.marquee-ride-list .grid-box .inner-box img,.marquee-ride-slide img{max-width:initial;width:100%}
+.marquee-ride-list .grid-box .inner-box .inner-image .trip-method img{max-width:100%;width:auto}
+.marquee-ride-list.grid-six .grid-box{width:50%}
+.marquee-ride-list .grid-box.mr-open .trip-placeholder .marquee-ride-slide{transform:scale(1);-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1)}
+.marquee-ride-list .grid-box .marquee-ride-slide .slider-progress{bottom:0}
+.marquee-ride-list .grid-box .inner-box .inner-txt{background:#000;text-align:center;padding:20px 15px 5px}
+.marquee-ride-list .card-comp .overlay-wid-txt h2{font-size:18px}
+.marquee-ride-list .card-comp h2{font-size:20px}
+.marquee-ride-list .grid-box .inner-box .inner-txt h2,.marquee-ride-list .grid-box .inner-box .inner-txt p{color:#fff}
+.marquee-ride-list .grid-box .inner-box .inner-txt p{margin-bottom:15px}
+.marquee-ride-list .grid-box .inner-box .inner-txt .custom-btn{padding:25px 25px;font-size:18px;color:#000}
+.marquee-ride-list .grid-box .inner-box .inner-txt .custom-btn:nth-of-type(2){padding-right:25px;font-size:18px;color:#fff;padding:15px 25px}
+.marquee-ride-list .grid-box .inner-box .inner-txt .custom-btn:nth-of-type(2):hover{color:#fff}
+.marquee-ride-list .grid-box .inner-box .inner-txt .custom-btn:nth-of-type(2):before{font-size:12px}
+.marquee-ride-slider>.container-cus{padding-left:25px;padding-right:25px}
+.marquee-ride-list .grid-box .inner-box .inner-image .trip-method .tm-inner{padding:15px 0;height:100px}
+.marquee-ride-list .grid-box .inner-box .inner-image .trip-method h2{padding:15px 0}
+.flex-direction-nav .flex-prev,.flexslider:hover .flex-direction-nav .flex-prev{left:-15px;opacity:1}
+.flex-direction-nav .flex-next,.flexslider:hover .flex-direction-nav .flex-next{right:-15px;opacity:1}
+.marquee-ride-list .row>[class^="col-"],.marquee-ride-list .row>[class*=" col-"]{flex:50%;max-width:50%}
+}
+@media screen and (max-width:600px){.marquee-ride-list .grid-box .inner-box .inner-txt p{height:auto !important}
+.marquee-ride-list.grid-six .grid-box{width:100%}
+.marquee-ride-list .grid-box .inner-box .inner-txt{padding:20px 15px 20px}
+.marquee-ride-list .row>[class^="col-"],.marquee-ride-list .row>[class*=" col-"]{flex:100%;max-width:100%}
+}
+@media screen and (max-width:340px){.dealers-rating-details .custom-btn{width:100%}
+}

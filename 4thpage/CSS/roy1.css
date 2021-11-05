@@ -1,0 +1,171 @@
+/* ************************NAVBAR************************** */
+.ITEM{
+    color: white; 
+    font-weight:bolder; 
+    font-size: 1.5vw; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ITEM:hover{
+    color: #DA291C;
+}
+
+.SIDE-ITEM:hover{
+    color: #DA291C;
+        
+}
+
+.SIDE-ITEM{
+    color: white; 
+    font-size: 1.3vw;
+}
+
+/* *********************BANNER****************** */
+#myvideo{
+    width:100%;
+}
+
+.carousel-indicators  li{
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    background-color:black;
+    opacity: 90%;
+}
+
+.carousel-indicators .active{
+    background-color: #DA291C;
+}
+
+/* ************SIDE BY SIDE IMAGES****************** */
+.column {
+    float: left;
+    width: 24.66%;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.column .IMGS{
+    /* width: 100%; */
+    transition: 0.5s ease-in-out;
+}
+
+.column:hover .IMGS{
+transform: scale(1.2);
+}
+
+/* ***********************BETWEEN NAVS***************   */
+
+.BETWEEN_NAV{
+    background-color: black;
+}
+
+.BT{
+    color: white; 
+    font-size: large; 
+    margin-top: 15px;
+}
+.BT:hover{
+    color:#DA291C;
+}
+
+/* ***********************BETWEEN NAVS1***************   */
+
+
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+  /* Clearfix (clear floats) */
+.row::after{
+content: "";
+clear: both;
+display: table;
+}
+
+
+
+.column1 #II1{
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.column:hover #II1{
+transform: scale(1.2);
+}
+
+.column1 #II2{
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.column:hover #II2{
+transform: scale(1.2);
+}
+
+.column1 #II3{
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.column:hover #II3{
+transform: scale(1.2);
+}
+
+/* ********************FOOTER***************** */
+
+.bi-instagram:hover{
+    color:pink;
+
+}
+.bi-instagram{
+    color:white;
+    font-size: xx-large; margin-bottom: 1%; margin-top: -1%; color:black;
+}
+
+.bi-facebook:hover{
+    color:blue;
+}
+.bi-facebook{
+    color: white;
+    font-size: xx-large; margin-bottom: 1%; margin-top: -1%; color:black;
+}
+
+.bi-youtube:hover{
+    color:red;
+}
+.bi-youtube{
+    color:white;
+    font-size: xx-large; margin-bottom: 1%; margin-top: -1%; color:black;
+}
+
+.bi-twitter:hover{
+    color:skyblue;   
+}
+.bi-twitter{
+    color:white;   
+    font-size: xx-large; margin-bottom: 1%; margin-top: -1%; color:black;
+}
+
+.bi-linkedin:hover{
+    color:blue;
+    
+}
+.bi-linkedin{
+    color:white;
+    font-size: xx-large; margin-bottom: 1%; margin-top: -1%; color:black;   
+}

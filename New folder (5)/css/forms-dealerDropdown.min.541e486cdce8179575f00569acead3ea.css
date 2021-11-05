@@ -1,0 +1,51 @@
+li{display:list-item;text-align:-webkit-match-parent}
+.awesomplete>ul>li{position:relative;padding:.2em .5em;cursor:pointer}
+.awesomplete>ul>li:hover{background:hsl(200,40%,80%);color:black}
+ul li mark{padding:0 !important;background-color:transparent !important}
+.awesomplete>ul{max-height:160px;overflow-y:scroll;border-radius:0;margin:0;background:#fff;border:1px solid rgba(0,0,0,.3);box-shadow:.05em .2em .6em rgba(0,0,0,.2);text-shadow:none;z-index:2}
+.column-grid.refined-grid{width:50%;float:left}
+.class-temp-padd{display:inline-block}
+@media screen and (min-width:768px){.input-city{width:100% !important;display:block}
+.input-city .col{width:calc(50% - 24px) !important}
+.input-city .col .input-box{width:inherit !important}
+.ui-menu.ui-autocomplete{z-index:100 !important;max-height:154px !important;height:auto;padding-left:0;border:1px solid #ccc;padding-right:0;border-top:0;width:337px !important}
+.dealerDropdown .input-box .awesomplete>ul{position:absolute;width:-webkit-fill-available}
+}
+@media screen and (max-width:767px){.column-grid.refined-grid{width:100%;float:none}
+.ui-menu.ui-autocomplete{width:calc(87% - 4px) !important;padding-left:0;padding-right:0;border:1px solid #ccc;height:153px !important;border-top:0}
+}
+@media screen and (min-width:400px) and (max-width:767px){.ui-menu.ui-autocomplete{width:calc(87% - 0px) !important}
+}
+.no-data-text{font-weight:bold}
+.rupee-icon:before{right:0;top:50%;content:"\0022";font-family:"reicons";font-size:16px;margin-top:-7px;font-weight:900}
+.price-icon.rupee-icon:before{right:15px}
+.motorcycle-price{padding:20px 0}
+.text a{color:#000;font-weight:bolder}
+.motorcycle-price .price-text{padding:0 10px}
+.dealers-list{padding:0 10px}
+.dealers-list .dealer-heading{padding:0 0 10px;margin:0}
+.dealer-dropdown{width:100%;overflow-x:hidden;text-align:left;margin:0 auto;display:block;max-height:420px;margin-bottom:16px}
+.dealers-list ::-webkit-scrollbar{width:5px}
+.dealers-list ::-webkit-scrollbar-track{background:#fff;border-radius:5px}
+.dealers-list ::-webkit-scrollbar-thumb{background:#5d5d5d;border-radius:5px}
+.dealer-dropdown label{width:calc(33.33% - 4px);width:-webkit-calc(33.33% - 4px);width:-moz-calc(33.33% - 4px);display:inline-block;padding-left:14px;box-sizing:border-box;cursor:pointer;margin-top:25px;position:relative;margin-left:0;vertical-align:top;padding-right:10px}
+.dealer-dropdown label:before{width:8px;height:8px;position:absolute;left:4px;top:4px;content:'';background:#da291c;transform:scale(0);transition:all .5s ease 0;border-radius:50%}
+.dealer-dropdown label h3{font-size:16px;color:#1f191a;line-height:16px}
+.dealer-dropdown label p{font-size:12px;line-height:20px;margin:10px 0 0;color:#000;text-transform:none}
+.dealer-dropdown label input[type="radio"]{position:absolute;left:0;top:0;opacity:0;visibility:hidden}
+.dealer-dropdown label:after{width:16px;height:16px;border-radius:50%;position:absolute;left:0;top:0;border:1px solid #000;content:''}
+.dealer-dropdown label.active:before{transform:scale(1)}
+.loadMeMore{border-bottom:1px solid #000}
+.dealer-loadmore{padding:10px 0 30px 20px}
+.arrow-align .select-box:before{content:'\0043';position:absolute;top:0;bottom:15px;right:15px;margin:auto;font-family:'reicons';font-size:14px;height:0;line-height:normal}
+.dealers-list .dealer-heading{padding:0 0 10px;margin:0}
+@media screen and (max-width:767px){.dealers-list .dealer-heading{padding:0 0 10px;margin:0}
+.motorcycle-price .price-text{padding:0}
+.motorcycle-price h2{padding:0}
+.dealer-dropdown label{padding-left:24px}
+.Motorcycle-Campaign-Page .dynamicFormContainer .form-submit-btn{margin-bottom:50px}
+}
+@media screen and (max-width:480px){.dealer-dropdown label{width:100%;margin-top:20px}
+}
+@media screen and (min-width:481px) and (max-width:767px){.dealer-dropdown label{width:calc(50% - 4px);width:-webkit-calc(50% - 4px);width:-moz-calc(50% - 4px);margin-top:15px}
+}

@@ -1,0 +1,175 @@
+/* ************************NAVBAR************************** */
+.ITEM{
+    color: white; 
+    font-weight:bolder; 
+    font-size: 1.5vw; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ITEM:hover{
+    color: #DA291C;
+}
+
+.SIDE-ITEM:hover{
+    color: #DA291C;
+        
+}
+
+.SIDE-ITEM{
+    color: white; 
+    font-size: 1.3vw;
+}
+
+/* *********************BANNER****************** */
+
+.carousel-indicators  li{
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    background-color:black;
+    opacity: 90%;
+}
+
+.carousel-indicators .active{
+    background-color: #DA291C;
+}
+
+
+/* ************SIDE BY SIDE IMAGES****************** */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.column1 {
+    float: left;
+    width: 25%;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    
+}
+  
+  /* Clearfix (clear floats) */
+  .row::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.IMGS{
+    width: 100%;
+}
+
+.column .IMGS{
+    /* width: 100%; */
+    transition: 0.5s ease-in-out;
+}
+
+.column:hover .IMGS{
+transform: scale(1.2);
+}
+
+.IMG_OVER1{
+    position: absolute;
+     top: 0; 
+     left:0;
+     bottom: 0; 
+     right: 0; 
+     color: white; 
+     font-weight: bold; 
+     width: 100%; 
+     height: 100%; 
+     background-color: black;
+     opacity: 40%;
+}
+
+.IMG_OVER5{
+    position: absolute;
+     top: 0; 
+     left:0;
+     bottom: 0; 
+     right: 0; 
+     color: white; 
+     font-weight: bold; 
+     width: 100%; 
+     height: 100%; 
+     background-color: black;
+     opacity: 50%;
+}
+
+.IMG_OVER2{
+    position: absolute; 
+    top:50%; 
+    left: 35%; 
+    color: white;
+    font-size:x-large;
+    background-color:black;
+}
+
+.IMG_OVER3{
+    position: absolute; 
+    top:80%; 
+    left: 10%; 
+    color: white;
+    font-size:medium;
+    /* background-color:black; */
+}
+
+.IMG_OVER2:hover{
+    background-color:white;
+    color:black;
+}
+
+
+.column1 .IMGS{
+
+    transition: .5 ease;
+}
+/* ********************FOOTER***************** */
+
+.bi-instagram:hover{
+    color:pink;
+
+}
+.bi-instagram{
+    color:white;
+    font-size: xx-large; margin-bottom: 1%; margin-top: -1%; color:black;
+}
+
+.bi-facebook:hover{
+    color:blue;
+}
+.bi-facebook{
+    color: white;
+    font-size: xx-large; margin-bottom: 1%; margin-top: -1%; color:black;
+}
+
+.bi-youtube:hover{
+    color:red;
+}
+.bi-youtube{
+    color:white;
+    font-size: xx-large; margin-bottom: 1%; margin-top: -1%; color:black;
+}
+
+.bi-twitter:hover{
+    color:skyblue;   
+}
+.bi-twitter{
+    color:white;   
+    font-size: xx-large; margin-bottom: 1%; margin-top: -1%; color:black;
+}
+
+.bi-linkedin:hover{
+    color:blue;
+    
+}
+.bi-linkedin{
+    color:white;
+    font-size: xx-large; margin-bottom: 1%; margin-top: -1%; color:black;   
+}

@@ -1,0 +1,21 @@
+@media screen and (max-width:767px){.footer{z-index:99 !important}
+}
+#scrolled{display:none;z-index:77;position:fixed;bottom:0;width:100%}
+.btn-white a{background:#fff;color:#000;display:block;padding:21px;cursor:pointer}
+.btn-red a{background:#da291c;color:#fff !important;display:block;padding:21px;cursor:pointer}
+.btn-black a{background:#0a0a0a;color:#fff !important;display:block;padding:21px;cursor:pointer}
+.btn-dual .btn-left a{padding:10px;color:#fff !important;cursor:pointer;display:flex !important;justify-content:center;align-items:center;vertical-align:middle;height:100%}
+.btn-dual .btn-right a{padding:10px;color:#fff;cursor:pointer;display:flex !important;justify-content:center;align-items:center;vertical-align:middle;height:100%}
+.btn-left{background:#da291c}
+.btn-right{background:#0a0a0a}
+#scrolled a .arrow-r{position:relative}
+#scrolled a .arrow-r:before{position:absolute;right:0;top:50%;content:"\0041";font-family:"reicons";font-size:10px;margin-top:-7px}
+.btn-dual .col-md-6{width:50% !important;padding-left:0 !important;padding-right:0 !important}
+.custom-btn .d-block{display:block !important}
+.btn-dual .row{margin-left:0 !important;margin-right:0 !important}
+.floating-btn-modal .modal-body{padding:0 !important}
+.cross-btn{position:absolute;top:6px;right:7px;z-index:9999999;opacity:1;font-size:24px;font-weight:normal;color:#fff}
+.align-from-top{top:35% !important}
+.align-from-top .modal-content{border-bottom:none !important}
+@media screen and (max-width:5000px) and (min-width:768px){#scrolled{display:none !important}
+}

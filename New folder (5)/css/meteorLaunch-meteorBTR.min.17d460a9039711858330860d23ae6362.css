@@ -1,0 +1,111 @@
+.form-container{max-width:766px;margin:0 auto;padding:30px 22px 75px}
+.form-container>p,.form-container form>p,.form-container p{padding:0 13px}
+.readMore{font-weight:bold}
+.gdpr-s .consents{padding:15px 15px 5px}
+.gdpr-s .consents .desc-class p{padding:0}
+.line-18 p{line-height:18px}
+.dynamic-form-element{width:100%}
+.input-box{width:calc(100% - 30px);width:-moz-calc(100% - 30px);width:-webkit-calc(100% - 30px);display:inline-block;margin:12px 13px;vertical-align:top;position:relative}
+.select-field{background:url(../fonts/re-platform-images-arrow-down.svg) no-repeat !important;background-size:15px !important;background-position:95% !important}
+.input-field,.textarea-field,.select-field{font-family:"montserrat-regular";font-size:14px;color:#212121;width:100%;height:auto;border:solid 1px #656565;border-radius:0;background:0;padding:14px;box-shadow:none;outline:0;box-sizing:border-box;appearance:none;-webkit-appearance:none;transition:.2s ease all;line-height:16px;position:relative;z-index:1}
+.meteor-form input::placeholder{color:#212121}
+.check-btn{width:100%;display:inline-block;margin:20px 14px}
+.mar-top{margin-top:1px}
+.custom-checkbox{width:auto;display:inline-block;vertical-align:middle;margin-right:25px}
+.check-btn.list-view .custom-checkbox{display:block;margin-bottom:15px}
+.custom-checkbox label{font-weight:normal;margin-bottom:0;position:relative;color:#555;font-size:14px;cursor:pointer}
+.form-conditions{width:18px;height:18px;display:block;float:left;position:relative;border:solid thin #656565;vertical-align:middle;cursor:pointer}
+.custom-checkbox input[type=checkbox].with-font{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.custom-checkbox input[type=checkbox].with-font ~ label:after{content:"";width:8px;height:8px;background:rgba(218,41,28,0);display:inline-block;position:absolute;left:5px;top:50%;transform:translateY(-50%)}
+.custom-checkbox input[type=checkbox].with-font:checked ~ label:before{border-color:#da291c}
+.custom-checkbox input[type=checkbox].with-font:checked ~ label:after{background:#da291c}
+.custom-checkbox .terms{display:inline-flex}
+.custom-checkbox label.active{color:#ef5994}
+.terms-message{float:left;display:block;width:calc(100% - 30px);width:-moz-calc(100% - 30px);width:-webkit-calc(100% - 30px)}
+.custom-checkbox a{color:#000;font-weight:bolder}
+.form-submit-btn{padding:16px 10px}
+.btn-long{padding:11px 35px 11px 20px !important}
+.j1a-btr-form.form-container{padding-bottom:10px}
+@media screen and (max-width:767px){span.terms-message{padding:0 10px}
+.form-container{max-width:800px;margin:0 auto;padding:40px 20px 50px}
+.custom-checkbox{width:100%;display:inline-block;vertical-align:middle;margin-right:0;margin-bottom:15px}
+.dynamic-form-element,.textarea,.textbox{width:100%}
+.form-container>p,.form-container p{padding:0}
+.input-box{margin:10px 10px;width:-webkit-calc(100% - 20px)}
+.input-field{margin:0}
+form>.cta,form .submitButton,.form-container p{padding:0}
+.mob-padd{padding:10px}
+.check-btn{margin:10px}
+.j1a-btr-form.form-container{padding-bottom:40px}
+}
+// otp section .otp-modal .modal-content{margin-top:96px}
+.verify-otp{color:#da291c;right:15px;position:absolute;top:15px;cursor:pointer;z-index:2;font-size:10px;font-weight:bold}
+.otp-modal .modal-header{border-bottom:0;justify-content:flex-end}
+span.cross-modal.icon-plus{width:30px;height:30px;background:transparent;border-radius:50%;position:relative;cursor:pointer}
+.cross-modal:before{position:absolute;top:8px;left:9px;transform:rotate(45deg);font-weight:bold}
+.f-16{font-size:16px}
+.resend-options{font-size:12px;margin-top:20px;cursor:pointer}
+button#numberOtpVerify{background:#000;color:#fff;border:0;padding:20px 50px;margin-top:15px}
+.otp-digits{margin:20px 0 30px}
+.otp-section h3{font-size:19px;padding:0 0 14px}
+.modal-body.otp-section{text-align:center;margin:0 0 35px}
+.otp-digits .input-box{width:7%;text-align:center;margin:10px 5px;display:inline-block}
+.otp-digits .input-box .input-field{padding:5px 5px 2px;border:0;border-bottom:2px solid #d5d5d5;text-align:center;margin:0}
+.otp-modal .modal-content{border:0;border-radius:0}
+.country-code{position:absolute;left:17px;top:24px;z-index:2}
+.otp-only .input-field{padding:15px 45px}
+.timerResend{margin:20px 0 0}
+@media screen and (max-width:767px){.verify-otp{font-size:13px;top:14px}
+.otp-digits .input-box{width:10%}
+}
+.c-code.select-field{width:17%;background-size:12px !important;padding:14px 21px 14px 10px;text-align:center;background-position:85% !important}
+.country-detail .input-field{width:81.6%}
+@media screen and (min-width:768px) and (max-width:950px){.country-detail .input-field{width:80.7%}
+.c-code.select-field{width:18%}
+}
+@media screen and (min-width:951px) and (max-width:1100px){.country-detail .input-field{width:80%}
+.c-code.select-field{width:18.5%}
+}
+@media screen and (min-width:1101px) and (max-width:1228px){.country-detail .input-field{width:80.2%}
+.c-code.select-field{width:18%}
+}
+@media screen and (min-width:1229px) and (max-width:1401px){.country-detail .input-field{width:80.5%}
+.c-code.select-field{width:18%}
+}
+@media screen and (max-width:767px){.input-box.country-detail{margin:10px 10px 10px 10px}
+.country-detail .input-field{width:calc( 100% - 66px);margin:0 0 0 2px}
+.c-code.select-field{width:60px;background-size:11px !important;padding:14px 21px 14px 13px;text-align:center;background-position:85% !important}
+}
+}
+li{display:list-item;text-align:-webkit-match-parent}
+.awesomplete>ul>li{position:relative;padding:.2em .5em;cursor:pointer}
+.awesomplete>ul>li:hover{background:hsl(200,40%,80%);color:black}
+ul li mark{padding:0 !important;background-color:transparent !important}
+.awesomplete>ul{max-height:160px;overflow-y:scroll;border-radius:0;margin:0;z-index:22;background:#fff;border:1px solid rgba(0,0,0,.3);box-shadow:.05em .2em .6em rgba(0,0,0,.2);text-shadow:none}
+@media screen and (min-width:768px){.awesomplete>ul{position:absolute;width:-webkit-fill-available}
+}
+.dealers-list{padding:0 15px}
+.dealer-dropdown{width:100%;overflow-x:hidden;text-align:left;margin:0 auto;display:block;max-height:420px;margin-bottom:16px}
+.dealer-dropdown label{width:calc(33.33% - 4px);width:-webkit-calc(33.33% - 4px);width:-moz-calc(33.33% - 4px);display:inline-block;padding-left:14px;box-sizing:border-box;cursor:pointer;margin-top:25px;position:relative;margin-left:0;vertical-align:top;padding-right:10px}
+.dealer-dropdown label.active:before{transform:scale(1)}
+.dealer-dropdown label:before{width:8px;height:8px;position:absolute;left:4px;top:4px;content:'';background:#da291c;transform:scale(0);transition:all .5s ease 0;border-radius:50%}
+.dealer-dropdown label h3{font-size:16px;color:#1f191a;line-height:16px;margin:0 10px}
+.dealer-dropdown label p{font-size:12px;line-height:20px;margin:10px 0 0;color:#000;text-transform:none}
+.dealer-dropdown label input[type="radio"]{position:absolute;left:0;top:0;opacity:0;visibility:hidden}
+.dealer-dropdown label:after{width:16px;height:16px;border-radius:50%;position:absolute;left:0;top:0;border:1px solid #000;content:''}
+.state-city .dynamic-form-element{width:calc(50% - 2px);display:inline-block}
+.state-city{width:100%}
+h3.dealer-heading{padding:25px 0 0}
+.state-city .dynamic-form-element .select-box{width:-webkit-calc(100% - 30px)}
+@media screen and (max-width:480px){.dealer-dropdown label{width:100%;margin-top:20px}
+}
+@media screen and (max-width:767px){.dealer-dropdown label{padding-left:24px}
+.state-city .dynamic-form-element .select-box{width:-webkit-calc(100% - 20px)}
+.state-city .dynamic-form-element .select-box .select-field{margin:0 10px}
+.state-city .dynamic-form-element{width:100%}
+.dealer-dropdown label h3{margin:0}
+}
+.meteor-form .gdpr-s .consents .desc-class .user-check-2 .form-gdpr:nth-child(4){margin-left:0}
+@media screen and (max-width:767px){.meteor-form .consents .user-check .form-gdpr{width:100%;margin-top:15px}
+.meteor-form .consents .user-check-2 .form-gdpr{width:100%}
+}

@@ -1,0 +1,46 @@
+.country-detail .c-code.select-field{background:url("../fonts/re-platform-images-arrow-down.svg") no-repeat !important;background-size:15px !important;background-position:95% !important}
+.country-detail .c-code.select-field{width:19%;background-size:12px !important;padding:15px 21px 15px 10px;text-align:center;background-position:85% !important}
+.country-detail .input-field{width:79.8%}
+.country-detail.three-grid-country .c-code.select-field{width:26%;background-size:12px !important;padding:15px 21px 15px 8px;text-align:center;background-position:85% !important}
+.country-detail.three-grid-country .input-field{width:72%}
+.timerResend{padding:5px 0 !important}
+@media screen and (min-width:768px) and (max-width:950px){.country-detail .input-field{width:80.7%}
+.country-detail .c-code.select-field{width:18%}
+}
+@media screen and (min-width:951px) and (max-width:1100px){.country-detail .input-field{width:77.7%}
+.country-detail .c-code.select-field{width:21%}
+}
+@media screen and (min-width:1101px) and (max-width:1230px){.country-detail .input-field{width:80.7%}
+.country-detail .c-code.select-field{width:18%}
+}
+@media screen and (min-width:1230px) and (max-width:1401px){.country-detail .input-field{width:80.7%}
+.country-detail .c-code.select-field{width:18%}
+}
+@media screen and (max-width:767px){.country-detail .input-field{width:79.8%}
+.country-detail .c-code.select-field{width:19%;background-size:11px !important;padding:15px 21px 15px 13px;text-align:center;background-position:85% !important}
+.country-detail.three-grid-country .input-field{width:79.8%}
+.country-detail.three-grid-country .c-code.select-field{width:19%;background-size:11px !important;padding:15px 21px 15px 13px;text-align:center;background-position:85% !important}
+}
+@media screen and (max-width:370px){.country-detail .input-field{width:76.5%}
+.country-detail .c-code.select-field{width:22%}
+.country-detail.three-grid-country .input-field{width:76.5%}
+.country-detail.three-grid-country .c-code.select-field{width:22%}
+}
+.verify-otp{color:#da291c;right:15px;position:absolute;top:15px;cursor:pointer;z-index:2;font-size:10px;font-weight:bold}
+.otp-modal .modal-header{border-bottom:0;justify-content:flex-end}
+span.cross-modal.icon-plus{width:30px;height:30px;background:transparent;border-radius:50%;position:relative;cursor:pointer}
+.cross-modal:before{position:absolute;top:8px;left:9px;transform:rotate(45deg);font-weight:bold}
+.f-16{font-size:16px}
+.resend-options{font-size:12px;margin-top:20px;cursor:pointer}
+button#numberOtpVerify{background:#000;color:#fff;border:0;padding:20px 50px;margin-top:15px}
+.otp-digits{margin:30px 0}
+.otp-section h3{font-size:19px;padding:0 0 14px}
+.modal-body.otp-section{text-align:center;margin:0 0 50px}
+.otp-digits .input-box{width:7%;text-align:center;margin:10px 5px}
+.otp-digits .input-box .input-field{padding:5px 5px 2px;border:0;border-bottom:2px solid #d5d5d5;text-align:center}
+.otp-modal .modal-content{border:0;border-radius:0}
+.country-code{position:absolute;left:17px;top:24px;z-index:2}
+.otp-only .input-field{padding:15px 60px 15px 20px}
+@media screen and (max-width:767px){.verify-otp{font-size:13px}
+.otp-digits .input-box{width:10%}
+}

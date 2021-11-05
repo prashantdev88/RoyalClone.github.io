@@ -1,0 +1,14 @@
+.card-counter img{max-width:100%;display:inline-block;margin-bottom:15px}
+.cards-heading{padding:35px 0}
+.mobile-card{padding-left:30px !important;padding-right:30px !important}
+.cards .row{justify-content:center}
+@media screen and (max-width:767px){.mobile-card{width:50%}
+}
+.container.gt-cup-cards{background:#212121;max-width:100%}
+.gt-cup-cards .cards-heading{padding:15px 0}
+.cards .gt-cup-cards .row{margin:0 auto;max-width:100%}
+.gt-cup-cards .col-md-3.mobile-card{padding-left:15px !important;padding-right:15px !important}
+@media screen and (max-width:767px){.gt-cup-cards .cards-heading{padding:0}
+.gt-cup-cards .col-md-3.mobile-card{width:100%}
+.gt-cup-cards .card-counter img{margin-bottom:25px}
+}

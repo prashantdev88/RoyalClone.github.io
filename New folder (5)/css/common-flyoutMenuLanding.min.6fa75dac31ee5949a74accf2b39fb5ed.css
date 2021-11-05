@@ -1,0 +1,12 @@
+.secondary .quick-links{height:100% !important}
+.bg-left-grey{background:#e1e1e1}
+.secondary .dropdown-list{height:100% !important}
+.dropdown-list{padding-bottom:0 !important}
+@media screen and (min-width:1250px){.ride-sure .product-image-caption{-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0);transform:translateY(0);transition:all .25s linear}
+.ride-sure .product-image-caption .product-image-txt{padding:20px 15px 0;transition:all .25s linear}
+.ride-sure a:hover .product-image-caption .product-image-txt{padding:20px 15px}
+.ride-sure .product-image-caption p{margin:0 !important;height:0;transform:translateY(40px);transition:all .25s linear}
+.ride-sure .product-image-caption button{visibility:hidden;height:0;transform:translateY(60px);transition:all .25s linear}
+.ride-sure a:hover .product-image-caption p{margin:10px 0 20px !important;height:auto;transform:translateY(0)}
+.ride-sure a:hover .product-image-caption button{height:auto;visibility:visible;transform:translateY(0)}
+}

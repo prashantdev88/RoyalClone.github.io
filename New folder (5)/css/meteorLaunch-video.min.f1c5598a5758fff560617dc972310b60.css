@@ -1,0 +1,26 @@
+.video-wrapper{position:relative;width:100%;height:88vh}
+.video-thumbnail{position:absolute;height:100%;object-fit:cover}
+.video-inner{position:absolute;width:80%;height:76%;top:12%;left:10%;transition:all .5s linear}
+.video-inner video{width:100%;height:100%;object-fit:cover}
+.video-inner.fullscreen{width:100%;height:100%;top:0;left:0}
+.play-icon-btn{width:80px;height:80px;background:rgba(75,75,75,.9);border-radius:50%;border:0;cursor:pointer;position:absolute;left:0;top:0;z-index:77;right:0;bottom:0;margin:auto}
+.pause-icon-btn{display:none;border:0;cursor:pointer;position:absolute;left:50%;transform:translateX(-50%);top:0;z-index:77;right:0;bottom:0;margin:auto;background:0}
+.pause-icon-btn img{width:80px;height:80px}
+.play-icon{height:40px;width:40px;fill:#fff;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}
+.cross-icon-btn{position:absolute;top:30px;right:30px;width:40px;height:40px;background:rgba(99,99,99,.6);border-radius:50%;border:0;cursor:pointer;display:none}
+.cross-icon{height:20px;width:20px;fill:#fff;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}
+@media screen and (min-width:768px){.play-animate-left{position:relative;animation:animateleft 1s}
+@keyframes animateleft{from{left:0;opacity:1}
+to{left:-100px;opacity:0}
+}
+}
+@media screen and (max-width:767px){.pause-icon-btn{display:none;border:0;cursor:pointer;position:absolute;top:0;z-index:77;right:auto;bottom:0;margin:auto;background:0}
+.play-icon-btn{position:absolute;left:50%;transform:translateX(-50%);top:0;z-index:77;right:auto;bottom:0;margin:auto}
+.pause-icon-btn img{width:35px !important;height:35px !important}
+.video-wrapper{height:230px}
+.video-inner{height:60%;top:20%}
+.play-icon-btn,.cross-icon-btn{width:35px;height:35px}
+.cross-icon-btn{top:15px;right:15px}
+.play-icon{width:20px;height:20px}
+}
+.rtopVideoPlayerWrapper,.rtopVideoPlayer,.rtopVideoHolder{height:100%}

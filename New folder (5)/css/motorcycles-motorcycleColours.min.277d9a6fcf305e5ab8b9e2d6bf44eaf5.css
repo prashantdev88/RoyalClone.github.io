@@ -1,0 +1,45 @@
+.no-transform{transform:translate3d(0,0,0) !important}
+.motorcycle-variants .text-heading{color:#fff}
+.motorcycle-variants .carousel-showcase-bike{border-top:solid thin #424242;border-bottom:solid thin #424242;padding:30px 0}
+.showcase-bike-thumb{width:100%;padding:25px 0 35px;text-align:center}
+.showcase-bike-thumb a{max-width:177px;display:inline-block;margin:0 50px}
+.showcase-bike-thumb img{max-width:100%}
+.carousel-showcase-bike .slick-slide img{max-width:100%;display:inline-block;-webkit-transition:all .6s;-moz-transition:all .6s;-ms-transition:all .6s;-o-transition:all .6s;transition:all .6s;opacity:.9;-webkit-transform:scale(0.7);-moz-transform:scale(0.7);-ms-transform:scale(0.7);-o-transform:scale(0.7);transform:scale(0.7)}
+.carousel-showcase-bike .slick-center img{opacity:1;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1)}
+.sb-thumb-inner{padding-top:25px;display:inline-block;width:100%;max-width:900px;margin:0 auto}
+.sb-thumb-inner h4{color:#fff;margin-bottom:30px;font-size:20px;font-family:"montserrat-regular"}
+.sb-thumb-inner p{margin-top:15px;color:#fff;padding:0 7px}
+.carousel-colours-thumb .c-item{text-align:center;cursor:pointer}
+.carousel-colours-thumb .c-item .inner-image img{display:inline-block;max-width:150px;width:100%}
+.carousel-colours-thumb .slick-current p{color:#da291c}
+section#colors{margin-top:-1px}
+.colour-bottom-txt{text-align:center;color:#FFF;border-top:1px solid #424242;padding:25px 0}
+@media screen and (max-width:900px){.carousel-showcase-bike .slick-slide img{opacity:1;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1)}
+.carousel-showcase-bike .slick-dots li{background:#323232 !important}
+.carousel-showcase-bike .slick-dots li.slick-active{background:#da291c !important}
+.showcase-bike-thumb .inner-image{padding:15px}
+.carousel-colours-nested .slick-dots{width:100% !important;text-align:center !important}
+}
+@media screen and (max-width:767px){.motorcycle-variants .carousel-showcase-bike{padding:0}
+.showcase-bike-thumb{padding:0 0 15px}
+.showcase-bike-thumb a{margin:0 15px}
+.showcase-bike-thumb a img{width:75px}
+.sb-thumb-inner p{font-size:12px}
+.carousel-showcase-bike .slick-slide img{-webkit-transform:scale(0.7);-moz-transform:scale(0.7);-ms-transform:scale(0.7);-o-transform:scale(0.7);transform:scale(0.7)}
+.carousel-showcase-bike .slick-current img{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1)}
+}
+@media screen and (max-width:460px){.showcase-bike-thumb a{margin:0 10px}
+.showcase-bike-thumb a img{width:50px}
+}
+@media screen and (max-width:399px){.carousel-colours-thumb .c-item .inner-image img{max-width:135px}
+}
+.white-theme-colours .colour-bottom-txt{color:#000}
+.white-theme-colours.motorcycle-variants .carousel-showcase-bike{border-top:0;border-bottom:0}
+.white-theme-colours .sb-thumb-inner p{color:#000}
+.white-theme-colours .carousel-colours-thumb .slick-current p{color:#da291c}
+.white-theme-colours .sb-thumb-inner{padding-top:0}
+.white-theme-colours .showcase-bike-thumb{padding:0 0 35px}
+.white-theme-colours .carousel-showcase-bike .slick-center img{-webkit-transform:scale(1.2) !important;-moz-transform:scale(1.2) !important;-ms-transform:scale(1.2) !important;-o-transform:scale(1.2) !important;transform:scale(1.2) !important}
+@media screen and (max-width:767px){.white-theme-colours .sb-thumb-inner h4{margin-top:20px}
+.white-theme-colours .carousel-showcase-bike .slick-slide img{padding-top:0}
+}

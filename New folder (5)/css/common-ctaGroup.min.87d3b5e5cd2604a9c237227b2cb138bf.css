@@ -1,0 +1,15 @@
+.cta .colored-btn{padding:10px 34px 10px 20px !important;margin:10px !important}
+.arrow-right:before{position:absolute;right:15px;top:50%;content:"\0041";font-family:"reicons";font-size:12px;margin-top:-7px}
+.arrow-right:hover::before,.arrow-l:hover::before{-webkit-animation-name:hvr-icon-wobble-horizontal;-moz-animation-name:hvr-icon-wobble-horizontal;-o-animation-name:hvr-icon-wobble-horizontal;animation-name:hvr-icon-wobble-horizontal;-webkit-animation-duration:1s;-moz-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;-moz-animation-timing-function:ease-in-out;-o-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-iteration-count:1;-moz-animation-iteration-count:1;-o-animation-iteration-count:1;animation-iteration-count:1}
+.Motorcycle-Campaign-Page .cta .colored-btn{margin:25px 10px 10px 10px !important}
+.cta .find-a-ride-btn{display:none}
+.cta .width-small.colored-btn{margin:0 0 60px !important}
+@media screen and (max-width:767px){.cta .find-a-ride-btn{display:block;padding:22px 35px 22px 15px !important;width:85%;margin:0 auto !important}
+.cta .find-a-ride-btn:before{right:35%;font-size:10px;margin-top:-6px}
+.colored-group-cta{display:flex;flex-direction:column;justify-content:center}
+.Motorcycle-Campaign-Page .cta .colored-btn{margin:10px !important}
+.hide-rte{display:block}
+.cta .width-small.colored-btn{width:72%;margin:10px auto 50px !important}
+}
+@media screen and (min-width:768px){.hide-rte{display:none}
+}

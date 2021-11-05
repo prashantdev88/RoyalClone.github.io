@@ -1,0 +1,58 @@
+.history-1901-page .trans_1901,.history-1901-page .hist-timeline-sec,.history-1901-page .hist-timeline-sec .hist-timeline-wrapper .hist-time-inner .each-year a,.hist-timeline-sec .hist-timeline-wrapper .hist-time-inner .each-year .history-1901-page a{transition:all 200ms ease-in-out}
+.history-1901-page .follow-sticky-header{position:relative;z-index:1}
+.slider-progress .progress.bg-red{background-color:#dc2517}
+.hist-timeline-sec{position:fixed;left:0;top:1px;width:125px;height:100%;z-index:10;background:#212121;padding-top:130px;padding-left:15px;z-index:0}
+.hist-timeline-sec .hist-timeline-wrapper{overflow:hidden;width:135px;height:calc(100% + 20px);white-space:nowrap}
+.hist-timeline-sec .hist-timeline-wrapper .hist-time-inner{height:100%}
+.hist-timeline-sec .hist-timeline-wrapper .hist-time-inner .each-year{color:#fff;font-size:14px;margin:30px 0;position:relative}
+.hist-timeline-sec .hist-timeline-wrapper .hist-time-inner .each-year a{color:#999;width:100%;font-family:"guardiansans-regular";font-size:14px;letter-spacing:2px;padding-left:35px;display:block}
+@media only screen and (max-width:1049px){.hist-timeline-sec .hist-timeline-wrapper .hist-time-inner .each-year a{font-size:13px;letter-spacing:1px;padding-left:15px}
+}
+.hist-timeline-sec .hist-timeline-wrapper .hist-time-inner .each-year:before{position:absolute;content:"";width:5px;height:5px;left:11px;top:6px;background:#fff;border-radius:50%}
+@media only screen and (max-width:1049px){.hist-timeline-sec .hist-timeline-wrapper .hist-time-inner .each-year:before{left:0;top:5px}
+}
+.hist-timeline-sec .hist-timeline-wrapper .hist-time-inner .each-year.active a{transform:translateX(5px) scale(1.2);color:#da291c}
+.hist-timeline-sec .hist-timeline-wrapper .hist-time-inner .each-year.active:before{background:#da291c}
+.hist-timeline-sec .hist-timeline-wrapper .hist-time-inner .each-year:hover a{color:#fff}
+@media only screen and (max-width:1049px){.hist-timeline-sec .hist-timeline-wrapper .hist-time-inner .each-year{margin:25px 0}
+}
+.hist-timeline-sec .hist-timeline-wrapper .hist-time-inner:before{position:absolute;content:"";width:1px;height:calc(100% + 130px);background:#fff;left:28px;top:130px}
+@media only screen and (max-width:1049px){.hist-timeline-sec .hist-timeline-wrapper .hist-time-inner:before{left:15px}
+}
+@media only screen and (max-width:767px){.hist-timeline-sec .hist-timeline-wrapper .hist-time-inner:before{top:100px;height:calc(100% + 100px)}
+}
+@media only screen and (max-width:1049px){.hist-timeline-sec .hist-timeline-wrapper{overflow-y:auto;width:80px}
+}
+.hist-timeline-sec.moved-top{padding-top:50px}
+.hist-timeline-sec.moved-top .hist-timeline-wrapper .hist-time-inner:before{height:calc(100% + 20px);top:50px}
+@media only screen and (max-width:1049px){.hist-timeline-sec{width:90px;padding-left:13px}
+}
+@media only screen and (max-width:767px){.hist-timeline-sec{padding-top:100px}
+}
+.full-histroy-sec{position:relative;width:100%}
+.full-histroy-sec .full-histroy-wrapper .each-hist-item{background:#d5d5d5}
+.full-histroy-sec .full-histroy-wrapper .each-hist-item .each-history-year{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center;align-content:center}
+.full-histroy-sec .full-histroy-wrapper .each-hist-item .each-history-year .hist-img-holder{width:50%}
+@media only screen and (max-width:767px){.full-histroy-sec .full-histroy-wrapper .each-hist-item .each-history-year .hist-img-holder{width:100%}
+}
+.full-histroy-sec .full-histroy-wrapper .each-hist-item .each-history-year .hist-content-holder{width:50%;padding:50px 100px 50px 50px;position:relative}
+.full-histroy-sec .full-histroy-wrapper .each-hist-item .each-history-year .hist-content-holder .bg-year{color:#ccc9c9;position:absolute;bottom:48%;left:30px;font-size:150px;letter-spacing:10px;font-weight:bold;z-index:0;line-height:130px;font-family:"guardiansans-semibold"}
+@media only screen and (max-width:1049px){.full-histroy-sec .full-histroy-wrapper .each-hist-item .each-history-year .hist-content-holder .bg-year{font-size:60px;line-height:100px;letter-spacing:5px}
+}
+@media only screen and (max-width:767px){.full-histroy-sec .full-histroy-wrapper .each-hist-item .each-history-year .hist-content-holder .bg-year{display:none}
+}
+.full-histroy-sec .full-histroy-wrapper .each-hist-item .each-history-year .hist-content-holder .forground-content{position:relative;z-index:1}
+.full-histroy-sec .full-histroy-wrapper .each-hist-item .each-history-year .hist-content-holder .forground-content h2{color:#111;font-size:36px;padding-bottom:15px}
+@media only screen and (max-width:1049px){.full-histroy-sec .full-histroy-wrapper .each-hist-item .each-history-year .hist-content-holder .forground-content h2{font-size:30px;padding-bottom:10px}
+}
+.full-histroy-sec .full-histroy-wrapper .each-hist-item .each-history-year .hist-content-holder .forground-content p{color:#111;max-width:500px}
+@media only screen and (max-width:1049px){.full-histroy-sec .full-histroy-wrapper .each-hist-item .each-history-year .hist-content-holder .forground-content p{font-size:12px}
+}
+@media only screen and (max-width:1049px){.full-histroy-sec .full-histroy-wrapper .each-hist-item .each-history-year .hist-content-holder{padding:20px 50px 20px 20px}
+}
+@media only screen and (max-width:767px){.full-histroy-sec .full-histroy-wrapper .each-hist-item .each-history-year .hist-content-holder{width:100%;padding:20px}
+}
+@media only screen and (max-width:767px){.full-histroy-sec .full-histroy-wrapper .each-hist-item .each-history-year{display:block;width:100%}
+}
+@media only screen and (max-width:1049px){.full-histroy-sec{width:100%}
+}

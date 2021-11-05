@@ -1,0 +1,37 @@
+.rsa-txt{width:100%;padding:50px;text-align:center;border-bottom:1px solid #d5d5d5}
+.rsa-txt p{line-height:24px;max-width:1120px;margin:0 auto}
+.rsa-txt .custom-btn{margin-top:30px}
+.benefit-rsa-holder{padding:20px 0}
+.benefit-rsa-holder>h2{text-align:center;padding:30px 0 50px;color:#000}
+.benefit-rsa-holder .tab-content{max-width:100%;margin:0 auto;position:relative}
+.benefit-rsa-holder .tab-content .tab-pane{width:100%;position:absolute;left:0;top:0;visibility:hidden;display:block}
+.benefit-rsa-holder .tab-content .tab-pane.active{visibility:visible;position:static;left:inherit;top:inherit}
+.rsa-tab{width:100%;text-align:center;overflow-x:auto;overflow-y:hidden}
+.rsa-tab .nav{display:inline-block;white-space:nowrap;list-style:none;overflow:hidden;margin:0 auto;float:none;border:0}
+.rsa-tab .nav li{list-style:none;display:inline-block;margin:0 20px;cursor:pointer}
+.rsa-tab .nav li a{color:#000;display:block}
+.rsa-tab .nav li a.active h3{color:#da291c}
+.rsa-tab .nav li a span{display:inline-block;font-size:45px}
+.rsa-tab .nav li a h3{margin-top:10px;display:block;text-align:center;color:#000;font-size:13px;line-height:18px}
+.benefits-rsa{max-width:1660px;margin:0 auto;padding:50px 50px;align-items:center;overflow:hidden}
+.benefits-rsa .benefits-rsa-img{width:50%;padding:0 15px;float:left}
+.benefits-rsa .benefits-rsa-img img{width:100%}
+.benefits-rsa .benefits-rsa-img .slick-dots{bottom:15px;right:15px;width:auto}
+.benefits-rsa .benefits-rsa-txt{width:50%;float:left;color:#000;padding:0 15px;text-align:left;vertical-align:middle}
+.benefits-rsa .benefits-rsa-txt h2{color:#000}
+.benefits-rsa .benefits-rsa-txt p{margin:20px 0 0}
+.benefits-rsa .benefits-rsa-txt a{margin-top:20px}
+@media screen and (max-width:1200px){.benefits-rsa{padding:50px 30px}
+}
+@media screen and (max-width:767px){.benefits-rsa{padding:25px}
+.benefits-rsa .benefits-rsa-img{width:100%;padding:0}
+.benefits-rsa .benefits-rsa-txt{width:100%;padding:0}
+.rsa-tab .nav{position:relative;text-align:center;right:inherit;top:inherit;height:auto}
+.rsa-tab .nav li{margin:0 10px}
+.rsa-tab .nav li a span{font-size:25px}
+.rsa-tab .nav li a h3{margin-top:5px;font-size:12px;line-height:18px}
+.benefits-rsa-txt{margin-top:25px}
+.rsa-txt{padding:25px}
+.benefit-rsa-holder>h2{padding:0 0 25px}
+.benefits-rsa .benefits-rsa-txt p{margin:10px 0 0}
+}
